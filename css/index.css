@@ -292,8 +292,9 @@ footer nav a {
 }
 
 .think {
+    border: 1px solid
     width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .think .cube {
@@ -304,30 +305,59 @@ footer nav a {
 
 
 .think .cube1 {
-    width: 45%;
+    width: 43%;
     height: auto;
-    margin: 20px 2.5%;
+    margin: 20px 1.5%;
+    display: flex;
     border-bottom: 1px dashed;
+    padding: 2%;
+
+
+}
+
+.think img {
+    width: 330px;
+    height: auto;
+    padding: 2%;
 }
 
 .think .cube2  {
-    width: 45%;
+    width: 43%;
     height: auto;
     margin: 20px 2.5%;
     display: flex;
+    border-bottom: 1px dashed;
+    padding: 2%;
 
 }
 
+
+
 .think .cube3  {
-    width: 45%;
+    width: 43%;
     height: auto;
     margin: 20px 2.5%;
     display: flex;
+    border-bottom: 1px dashed;
+    padding: 2%;
 }
 
 .think .cube4  {
-    width: 45%;
+    width: 43%;
     height: auto;
     margin: 20px 2.5%;
     display: flex;
+    border-bottom: 1px dashed;
+    padding: 2%;
+    padding-left:15px;
 }
+
+
+.tgether .together {
+    border-bottom: 1px dashed;
+    width: 100%;
+    padding: 0 1%;
+    padding-top: 2%;
+    padding-bottom: 20px
+}
+
