@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    margin:1%;
+    border: 1px solid;
+    display: flex;
+}
+
+.navigation .lambda-logo{
+    border: 1px solid;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation .nav {
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
