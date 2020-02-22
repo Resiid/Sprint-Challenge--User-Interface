@@ -282,3 +282,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-about .top-abt {
+    border-bottom: 1px dashed;
+    width: 100%;
+    padding: 0 1%;
+    padding-top: 2%;
+    padding-bottom: 20px
+}
+
+.think {
+    border: 1px solid;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.think .cube {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.think .cube1 {
+    border: 1px solid yellow;
+    width: 45%;
+    height: auto;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.think .cube2  {
+    border: 1px solid;
+    width: 45%;
+    height: auto;
+    margin: 20px 2.5%;
+    display: flex;
+}
+
+.think .cube3  {
+    border: 1px solid;
+    width: 45%;
+    height: auto;
+    margin: 20px 2.5%;
+    display: flex;
+}
+
+.think .cube4  {
+    border: 1px solid;
+    width: 45%;
+    height: auto;
+    margin: 20px 2.5%;
+    display: flex;
+}
