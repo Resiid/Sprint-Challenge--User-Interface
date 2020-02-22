@@ -292,7 +292,6 @@ footer nav a {
 }
 
 .think {
-    border: 1px solid;
     width: 800px;
     margin: 0 auto;
 }
@@ -305,25 +304,21 @@ footer nav a {
 
 
 .think .cube1 {
-    border: 1px solid yellow;
     width: 45%;
     height: auto;
     margin: 20px 2.5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    border-bottom: 1px dashed;
 }
 
 .think .cube2  {
-    border: 1px solid;
     width: 45%;
     height: auto;
     margin: 20px 2.5%;
     display: flex;
+
 }
 
 .think .cube3  {
-    border: 1px solid;
     width: 45%;
     height: auto;
     margin: 20px 2.5%;
@@ -331,7 +326,6 @@ footer nav a {
 }
 
 .think .cube4  {
-    border: 1px solid;
     width: 45%;
     height: auto;
     margin: 20px 2.5%;
