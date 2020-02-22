@@ -65,12 +65,45 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.navigation {
-    margin:0 auto;
+header {
+    border: 1px solid;
     width: 800px;
+    margin: 0 auto;
+}
+
+.cntr {
     border: 1px solid;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    border-bottom: 1px dashed black;
+}
+
+.cntr .lambda-logo {
+    border: 1px solid;
+    width: 25%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+.cntr .nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    padding-top: 3%;
+    width: 75%;
+}
+
+
+/* 
+
+.navigation {
+    margin:auto auto;
+    width: 800px;
+    border: 1px solid;
+    display: flex
+    
 }
 
 .navigation .lambda-logo{
@@ -79,14 +112,27 @@ p {
 
 }
 
-.navigation .nav {
-    width: 50%;
-    margin-bottom: 20px;
+.nav {
     border: 1px solid;
-    display:flex;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: start;
 }
 
+
+/* you are here  */
+ 
+
+/* .navigation .anchor {
+    border: 1px solid;
+    margin: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+} */
+
+/*  */
 
 .container {
     width: 800px;
@@ -94,6 +140,7 @@ p {
 }
 
 .top-content {
+    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
