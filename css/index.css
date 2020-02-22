@@ -75,7 +75,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    border-bottom: 1px dashed black;
 }
 
 .cntr .lambda-logo {
@@ -123,7 +122,6 @@ nav a{
     padding-bottom: 20px;  
 }
 
-/* here */
 
 .middle-content {
     margin-bottom: 20px;
