@@ -97,6 +97,11 @@ nav a{
     color: black;
 }
 
+.cntr2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
 
 .container {
     width: 800px;
@@ -104,8 +109,8 @@ nav a{
 }
 
 .top-content {
-    border: 1px solid;
     display: flex;
+    padding-top: 3%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
